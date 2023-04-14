@@ -1,0 +1,92 @@
+<html>
+    <body>     
+        <h1>이 귀여운 오리를 봐요!! 정말 귀여워어어ㅓ</h2>
+        <div class="image-div">
+            <img class="picture"
+            src="https://us.123rf.com/450wm/piep600/piep6001202/piep600120200115/12541542-%EA%B7%80%EC%97%AC%EC%9A%B4-%EC%98%A4%EB%A6%AC-%EC%83%9D%ED%99%9C.jpg?ver=6"
+            alt="귀여여여여여ㅕㅇ웡1"
+            >
+            <img class="picture"
+            src="https://mblogthumb-phinf.pstatic.net/MjAxNzA2MTNfMTQ1/MDAxNDk3MzQ2NzY3MzQ5.YmA2aV3mEiuRAZf19exiXAf6EDms-8gbRB8NPJg_fkEg.CI1NxxvfegV_b9RU7uLvHGxI057SCf1Pt98ZaFe0LkUg.JPEG.vazx1234/2017-06-13_18%3B34%3B22.JPG?type=w800"
+            alt="귀여여여여dfsadfasl;kf2"
+            >
+            <img class="picture"
+            src="https://img.hankyung.com/photo/201410/03.9178206.1.jpg"
+            alt="귀여여여여dfsadfasl;kf3"
+            >
+            <img class="picture"
+            src="https://gdimg.gmarket.co.kr/2206289191/still/600?ver=1629946649"
+            alt="귀여여여여dfsadfasl;kf3"
+            >
+            <img class="picture"
+            src="https://openimage.interpark.com/goods_image_big/3/5/4/7/8286453547_l.jpg"
+            alt="귀여여여여dfsadfasl;kf3"
+            >
+        </div>
+        <div class="btn-div">
+            <button id="ori-btn">정말 귀엽지 않니!!!!!!!</button>
+        </div>
+        
+    </body>
+<style>
+    .picture {
+        width: 33vh;
+        height: 33vh;
+        outline : solid 5px rgb(219, 219, 25);
+        border-radius: 30px 30px;
+        box-shadow: 2px 5px 3px rgb(0, 0, 0);
+    }
+    body {
+        background-color: rgb(218, 220, 93);
+    }
+    .image-div {
+        text-align: center;
+        padding-top: 10%;
+        display: inline-flexbox;
+        justify-content: space-between;
+    }
+    h1 {
+        text-align: center;
+    }
+    button {
+        text-align: center;
+        width: 20vh;
+        height: 10vh;
+        background-color: yellow;
+        border-radius: 30px 30px;
+        box-shadow: 2px 5px 3px rgb(0, 0, 0);
+        margin-top: 30px;
+        display: inline-block;
+    }
+    .btn-div {
+        text-align: center;
+    }
+</style>
+<script>
+    const btn = document.querySelector("#ori-btn");
+
+    function Ori_nuke() {
+        let User_has_been_press = true;
+        let survey = {
+            first: false,
+            two: false,
+            three: false,
+            four: false,
+        }
+
+        while(User_has_been_press) {
+            survey.first = confirm("You have been infected duck virus.");
+            survey.two = confirm("You have been infected duck virus.")
+            survey.three = confirm("You have to change you profile picture.")
+            survey.four = confirm("오리 바이러스에 감염되었습니다. 귀하께선 프로파일 사진을 바꾸어야 합니다.")
+            if(survey.first == true || survey.two == true || survey.three ==0 || survey.four==0){
+                break;
+            };
+        };
+        window.location.href = "file:///C:/Users/shovel/Desktop/cascading%20style%20sheet%20practice/another.html";
+    };
+
+    btn.addEventListener('click', Ori_nuke);
+
+</script>
+<html>
